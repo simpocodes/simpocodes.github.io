@@ -1,0 +1,154 @@
+/*....on clicking the menu to display the ul on small and medium devices */
+
+/* ...........show nav ul....... */
+@keyframes show-ul {
+  0% {
+    transform: translate(-50%, 110%);
+  }
+  100% {
+    transform: translate(-50%, 100%);
+  }
+}
+
+@-webkit-keyframes show-ul {
+  0% {
+    transform: translate(-50%, 110%);
+  }
+  100% {
+    transform: translate(-50%, 100%);
+  }
+}
+@-moz-keyframes show-ul {
+  0% {
+    transform: translate(-50%, 110%);
+  }
+  100% {
+    transform: translate(-50%, 100%);
+  }
+}
+@-o-keyframes show-ul {
+  0% {
+    transform: translate(-50%, 110%);
+  }
+  100% {
+    transform: translate(-50%, 100%);
+  }
+}
+
+/*........................ ul ul ..............................*/
+
+@keyframes show-ul-ul {
+  0% {
+    transform: translateY(90%) translateX(50.5%);
+  }
+  100% {
+    transform: translateY(78%) translateX(50.5%);
+  }
+}
+@-webkit-keyframes show-ul-ul {
+  0% {
+    transform: translateY(90%) translateX(50.5%);
+  }
+  100% {
+    transform: translateY(78%) translateX(50.5%);
+  }
+}
+@-o-keyframes show-ul-ul {
+  0% {
+    transform: translateY(90%) translateX(50.5%);
+  }
+  100% {
+    transform: translateY(78%) translateX(50.5%);
+  }
+}
+@-moz-keyframes show-ul-ul {
+  0% {
+    transform: translateY(90%) translateX(50.5%);
+  }
+  100% {
+    transform: translateY(78%) translateX(50.5%);
+  }
+}
+
+/*............the moving line under the header */
+
+@keyframes fill {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes fill {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-o-keyframes fill {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-moz-keyframes fill {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/*.....display in and out of the ul on small and medium deveices */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  60%,
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  60%,
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  60%,
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  60%,
+  100% {
+    opacity: 1;
+  }
+}
+
+/*................ the dark and light theme toggle button ..........*/
+@keyframes trans-bg-change {
+  0% {
+  }
+  100% {
+    transform: translate(200%, -40%);
+  }
+}

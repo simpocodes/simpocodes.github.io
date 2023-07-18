@@ -1,0 +1,51 @@
+.close {
+  display: none;
+}
+.show {
+  display: flex;
+  animation: fade-in 0.3s;
+}
+.navigations {
+  width: 100%;
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem 0.2rem 0.3rem;
+  margin: 1rem 0;
+}
+.navigations ul {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  /* height: ; */
+  justify-content: space-between;
+  align-self: center;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
+.navigations ul li {
+  /* background-color: green; */
+  align-items: center;
+}
+.navigations ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.navigations ul li {
+  list-style: none;
+  position: relative;
+  line-height: 40px;
+}
+
+.navigations ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  /* color: black; */
+  padding: 0.5rem 1.5rem;
+}
+.navigations ul li a:hover {
+  transition: background 0.5s;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: none;
+}

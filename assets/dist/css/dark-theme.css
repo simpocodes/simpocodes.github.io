@@ -1,0 +1,23 @@
+/*.......................all anchor tag............................*/
+
+.achors-bg-change {
+  color: rgb(200, 200, 200);
+}
+.achors-bg-change:hover {
+  color: rgb(250, 250, 250);
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/*.......................banner............................*/
+.dark-banner {
+  filter: brightness(30%);
+}
+
+/* price */
+
+.dark-price {
+  background-color: #212530 !important;
+}
+.dark-price::before {
+  border-color: transparent #212550 transparent transparent !important;
+}
